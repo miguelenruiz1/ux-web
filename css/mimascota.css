@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #D78656 !important;
+    box-sizing: border-box;
+}
+
+.linea{
+    color: white;
+    border-bottom: 1px solid #000000;
+}
+
+.profile-name{
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    background-color: #995E3B;
+    color: white;
+    padding: 10px;
+    margin: 0 !important;
+    box-sizing: border-box;
+}
+
+.logo-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Footer Styles */
+.footer {
+    width: 100%;
+    background-color: #9E9494;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0 !important;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    margin-left: 3%;
+}
+
+.social-icons a {
+    color: black;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: black;
+}
+
+.social-icons a i.fab {
+    color: black;
+}
+
+img.rounded {
+    border-radius: 4.25rem !important;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
