@@ -20,7 +20,6 @@
 }
 
 .btn-primary {
-<<<<<<< HEAD
     background-color: #117A65; 
 }
 
@@ -31,18 +30,6 @@ body {
 
 footer {
     padding: 20px 0; 
-=======
-    background-color: #117A65; /* Asegúrate de que este es el color deseado */
-}
-
-body {
-    font-family: Arial, sans-serif; /* Restaurando la fuente */
-    margin: 0; /* Eliminando margen por defecto */
-}
-
-footer {
-    padding: 20px 0; /* Añadiendo padding al footer */
->>>>>>> 6694b3dd63680c5cb48bf6822775ec67bed0bcf3
 }
 
 
@@ -53,7 +40,6 @@ p.text-muted {
 }
 
 p.text-muted .resaltar {
-<<<<<<< HEAD
     font-weight: bold; 
     font-size: 1.2em; 
     color: white; 
@@ -67,9 +53,3 @@ div.grafica{
     width: 500px !important;
     
 }
-=======
-    font-weight: bold; /* Hace el texto en negrita */
-    font-size: 1.2em; /* Aumenta el tamaño del texto */
-    color: white; /* Establece el color del texto a blanco */
-}
->>>>>>> 6694b3dd63680c5cb48bf6822775ec67bed0bcf3
