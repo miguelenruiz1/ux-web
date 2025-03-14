@@ -7,6 +7,7 @@ html, body {
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 .main-content {
     width: 100%;
 }
@@ -65,11 +66,18 @@ body {
 
 
 .linea {
+=======
+.linea{
+>>>>>>> 6694b3dd63680c5cb48bf6822775ec67bed0bcf3
     color: white;
     border-bottom: 1px solid #000000;
 }
 
+<<<<<<< HEAD
 .profile-name {
+=======
+.profile-name{
+>>>>>>> 6694b3dd63680c5cb48bf6822775ec67bed0bcf3
     color: white;
 }
 
@@ -78,7 +86,18 @@ body {
     flex-direction: column;
 }
 
+<<<<<<< HEAD
 
+=======
+header {
+    width: 100%;
+    background-color: #995E3B;
+    color: white;
+    padding: 10px;
+    margin: 0 !important;
+    box-sizing: border-box;
+}
+>>>>>>> 6694b3dd63680c5cb48bf6822775ec67bed0bcf3
 
 .logo-container {
     text-align: center;
@@ -88,8 +107,12 @@ body {
 .main-content {
     flex: 1;
     display: flex;
+<<<<<<< HEAD
     align-items: flex-start;
     margin-top: 150px;
+=======
+    align-items: center;
+>>>>>>> 6694b3dd63680c5cb48bf6822775ec67bed0bcf3
     justify-content: center;
     text-align: center;
 }

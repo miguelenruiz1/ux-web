@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .font-site {
     font-family: "Solway", serif !important;
 }
@@ -15,6 +16,25 @@ body {
 }
 
 
+=======
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #D78656 !important;
+    position: relative;
+    padding-top: 60px;
+}
+
+.registro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+>>>>>>> 6694b3dd63680c5cb48bf6822775ec67bed0bcf3
 
 .logo-container {
     position: absolute;
