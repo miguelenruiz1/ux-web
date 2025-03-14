@@ -13,21 +13,23 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Incluir Chart.js -->
 </head>
 <body>
-    <header class="py-2 text-white" style="background-color: #D78656;">
-        <div class="container d-flex flex-wrap justify-content-between">
-            <a href="#" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                <span>PETS ALARMAS</span>
+    <header>
+        <div class="w-100 d-flex flex-wrap justify-content-center justify-content-md-between">
+            <a href="vermascota.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <span class="font-site" style="font-size: 28px; line-height: 36px;">PETS ALARMAS</span>
             </a>
             <ul class="nav">
-                <li class="nav-item"><a href="home.html" class="nav-link text-white">Home</a></li>
-                <li class="nav-item"><a href="mascotas.html" class="nav-link text-white">Mascotas</a></li>
-                <li class="nav-item"><a href="reportes.html" class="nav-link text-white">Reportes</a></li>
-                <li class="nav-item"><a href="logout.html" class="nav-link text-white">cerrar sesión</a></li>
+                <li class="nav-item"><a href="vermascota.html" class="nav-link "
+                        style="color: black !important; background: white; border-radius: 8px;">Home</a></li>
+                <li class="nav-item"><a href="mascota.html" class="nav-link text-black font-site">Mi mascota</a></li>
+                <li class="nav-item"><a href="reporte.html" class="nav-link text-black font-site">Reportes</a></li>
+                <li class="nav-item"><a href="login.html"
+                        style="color: black !important; background: white; border-radius: 8px; margin-left:30px;"
+                        class="nav-link  font-site">Cerrar sesión</a></li>
             </ul>
         </div>
     </header>
-
-    <div class="container mt-5">
+    <div class="container mt-5 vermascota">
         <h1 class="title-ver text-center text-white">Aquí puedes ver tus mascotas</h1>
         <p class="text-muted"> <span class="resaltar">Mascotas </span> -> Para crear una mascota, accede por la app
             móvil</p>
@@ -72,7 +74,7 @@
         </div>
 
     </div>
-    <div class="container text-center mt-5">
+    <div class="container text-center mt-5 grafica" >
         <h1>Reportes de tus mascotas</h1>
         <canvas id="mascotasReportChart"></canvas> <!-- Canvas para el gráfico -->
     </div>
@@ -82,6 +84,7 @@
             <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
         </div>
+    
     </footer>
     <script>
         const ctx = document.getElementById('mascotasReportChart').getContext('2d');

@@ -7,12 +7,69 @@ html, body {
     box-sizing: border-box;
 }
 
-.linea{
+.main-content {
+    width: 100%;
+}
+
+
+header {
+
+    /* Header */
+
+    box-sizing: border-box;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    padding: 12px 10px;
+    gap: 0px 24px;
+
+    position: absolute;
+
+    height: 75px;
+    left: 0px;
+    top: 1px;
+    width: 100%;
+    margin: 0 !important;
+
+
+    /* Background PETS */
+    background: linear-gradient(180deg, #D78656 0%, #995E3B 84%, #55321E 100%);
+
+}
+
+body {
+    height: 100vh;
+    background-color: #D78656 !important;
+
+}
+
+.login-container {
+    height: 100%;
+    display: flex;
+
+}
+
+.font-site {
+    font-family: "Solway", serif !important;
+}
+
+.img-mascota {
+
+    border-radius: 50%;
+    width: 40%;
+}
+
+
+.linea {
     color: white;
     border-bottom: 1px solid #000000;
 }
 
-.profile-name{
+.profile-name {
     color: white;
 }
 
@@ -21,14 +78,7 @@ body {
     flex-direction: column;
 }
 
-header {
-    width: 100%;
-    background-color: #995E3B;
-    color: white;
-    padding: 10px;
-    margin: 0 !important;
-    box-sizing: border-box;
-}
+
 
 .logo-container {
     text-align: center;
@@ -38,7 +88,8 @@ header {
 .main-content {
     flex: 1;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    margin-top: 150px;
     justify-content: center;
     text-align: center;
 }

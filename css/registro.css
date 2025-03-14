@@ -1,20 +1,20 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #D78656 !important;
-    position: relative;
-    padding-top: 60px;
+.font-site {
+    font-family: "Solway", serif !important;
 }
 
-.registro-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
+body {
+    height: 100vh;
+    background-color: #D78656 !important;
+
 }
+
+.registro-container {   
+
+    height: 100%;
+    display: flex;   
+}
+
+
 
 .logo-container {
     position: absolute;

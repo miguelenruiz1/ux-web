@@ -20,16 +20,16 @@
 }
 
 .btn-primary {
-    background-color: #117A65; /* Asegúrate de que este es el color deseado */
+    background-color: #117A65; 
 }
 
 body {
-    font-family: Arial, sans-serif; /* Restaurando la fuente */
-    margin: 0; /* Eliminando margen por defecto */
+    font-family: Arial, sans-serif; 
+    margin: 0;
 }
 
 footer {
-    padding: 20px 0; /* Añadiendo padding al footer */
+    padding: 20px 0; 
 }
 
 
@@ -40,7 +40,16 @@ p.text-muted {
 }
 
 p.text-muted .resaltar {
-    font-weight: bold; /* Hace el texto en negrita */
-    font-size: 1.2em; /* Aumenta el tamaño del texto */
-    color: white; /* Establece el color del texto a blanco */
+    font-weight: bold; 
+    font-size: 1.2em; 
+    color: white; 
+}
+
+div.vermascota {
+    margin-top: 90px !important;
+}
+
+div.grafica{
+    width: 500px !important;
+    
 }

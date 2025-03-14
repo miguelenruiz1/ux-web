@@ -1,25 +1,17 @@
-html, body {
-    height: 100%;
-    /* Hace que el html y body ocupen todo el alto de la pantalla */
-    margin: 0;
-    /* Elimina los márgenes predeterminados */
-    padding: 0;
-    /* Elimina el relleno predeterminado */
+.font-site {
+    font-family: "Solway", serif !important;
+}
+
+body {
+    height: 100vh;
     background-color: #D78656 !important;
-    position: relative;
-    padding-top: 60px;
+
 }
 
 .login-container {
     height: 100%;
-    /* Establece la altura del contenedor al 100% de la ventana */
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* Centra el contenido verticalmente */
-    align-items: center;
-    /* Centra el contenido horizontalmente */
-    text-align: center;
+
 }
 
 .logo-container {
@@ -31,32 +23,36 @@ html, body {
 
 .login-form {
     width: 100%;
-    /* Puedes ajustar esto según lo necesites */
+
     max-width: 400px;
-    /* Establece un ancho máximo para el formulario */
+
 }
 
 .input-group {
     margin-bottom: 15px;
-    /* Espacio entre los inputs */
+
 }
 
 button {
     width: 100%;
-    /* Hace que el botón ocupe todo el ancho del contenedor padre */
+
 }
 
 .social-login button {
     background: none;
     border: none;
     color: #333;
-    /* Cambia el color para que coincida con tu diseño */
+
 }
 
 .social-login button:hover {
     background-color: transparent;
     color: #666;
-    /* Cambia el color de hover */
+
+}
+
+.col-4.d-flex.justify-content-end {
+    justify-content: flex-start;
 }
 
 input {
@@ -68,6 +64,9 @@ i.fab {
     color: #fff;
 }
 
+.fa-brands {
+    color: #fff;
+}
 h1, h2 {
     color: #fff;
 }
@@ -75,7 +74,6 @@ h1, h2 {
 .footer {
     width: 100%;
     background-color: #9E9494;
-    /* Cambia el color de fondo según tus necesidades */
     color: black;
     text-align: center;
     padding: 10px 0;
@@ -103,18 +101,24 @@ h1, h2 {
     /* Color al pasar el mouse sobre el icono */
 }
 
- .social-icons a  i.fab {
+.social-icons a i.fab {
     color: black;
 }
 
 .title-login {
     position: absolute;
-    top: 0; /* Posiciona el título en la parte superior */
-    width: 100%; /* Asegura que el título se extienda a lo ancho de la pantalla */
-    text-align: center; /* Centra el texto horizontalmente */
-    margin-top: 20px; /* Espacio desde el top del viewport */
-    font-size: 2rem; /* Ajusta el tamaño de la fuente según necesites */
-    color: #fff; /* Cambia el color según tu diseño */
-    z-index: 500; /* Menor que el logo para que el logo tenga prioridad visual */
+    top: 0;
+    /* Posiciona el título en la parte superior */
+    width: 100%;
+    /* Asegura que el título se extienda a lo ancho de la pantalla */
+    text-align: center;
+    /* Centra el texto horizontalmente */
+    margin-top: 20px;
+    /* Espacio desde el top del viewport */
+    font-size: 2rem;
+    /* Ajusta el tamaño de la fuente según necesites */
+    color: #fff;
+    /* Cambia el color según tu diseño */
+    z-index: 500;
+    /* Menor que el logo para que el logo tenga prioridad visual */
 }
-
