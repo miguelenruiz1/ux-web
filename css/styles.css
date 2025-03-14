@@ -1,0 +1,82 @@
+
+
+section#colors h2 {
+    border-bottom: 2px solid #000; 
+    padding-bottom: 25px;
+}
+
+section#typography h2 {
+    border-bottom: 2px solid #000; 
+    padding-bottom: 25px;
+}
+
+section#logo h2 {
+    border-bottom: 2px solid #000; 
+    padding-bottom: 25px;
+}
+
+section#textos h2 {
+    border-bottom: 2px solid #000; 
+    padding-bottom: 25px;
+}
+
+section#otros h2 {
+    border-bottom: 2px solid #000; 
+    padding-bottom: 25px;
+}
+
+section#listas h2 {
+    border-bottom: 2px solid #000; 
+    padding-bottom: 25px;
+}
+
+section#entradas h2 {
+    border-bottom: 2px solid #000; 
+    padding-bottom: 25px;
+}
+section#botones h2 {
+    border-bottom: 2px solid #000; 
+    padding-bottom: 25px;
+}
+
+
+section#iconos h2 {
+    
+    padding-bottom: 25px;
+}
+
+p#tab{
+    border-bottom: 2px solid #000; 
+    padding-bottom: 25px;
+}
+
+.color-box {
+    width: 150px; /* Tamaño de cada cuadro de color */
+    height: 50px; /* Altura de cada cuadro de color */
+    color: #fff; /* Color del texto dentro del cuadro */
+    margin: 10px 5px; /* Margen alrededor de los cuadros */
+    display: inline-block; /* Para que se muestren en línea */
+    text-align: center; /* Centrar texto horizontalmente */
+    vertical-align: middle; /* Centrar texto verticalmente */
+    line-height: 50px; /* Alineación vertical del texto */
+    border: 1px solid #000; /* Borde para destacar cada cuadro */
+}
+
+header, section, footer {
+    padding: 10px;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #482d1c;
+}
+
+footer {
+    grid-column: 1 / -1; /* Ocupa todas las columnas */
+    padding: 10px;
+    margin: 20px 20px 0; /* Márgenes uniformes */
+}
+
+img.rounded{
+    border-radius: 4.25rem !important;
+}

@@ -1,0 +1,55 @@
+.pet-circle img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.pet-circle p {
+    margin-top: 5px;
+    color: black;
+    font-size: 14px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.btn-primary {
+    background-color: #117A65; 
+}
+
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+}
+
+footer {
+    padding: 20px 0; 
+}
+
+
+p.text-muted {
+    color: white !important;
+    
+    /* margin-left: -19%; */
+}
+
+p.text-muted .resaltar {
+    font-weight: bold; 
+    font-size: 1.2em; 
+    color: white; 
+}
+
+div.vermascota {
+    margin-top: 90px !important;
+}
+
+div.grafica{
+    width: 500px !important;
+    
+}
