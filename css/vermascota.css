@@ -53,3 +53,9 @@ div.grafica{
     width: 500px !important;
     
 }
+
+.pet-circle a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
